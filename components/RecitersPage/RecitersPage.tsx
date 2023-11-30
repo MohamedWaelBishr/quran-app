@@ -4,7 +4,7 @@ import { FC } from "react";
 
 //@ts-ignore
 interface RecitersPageProps {
-  reciters: Reciter[];
+  reciters: Reciter[] | undefined;
 }
 
 const RecitersPage: FC<RecitersPageProps> = ({ reciters }) => {

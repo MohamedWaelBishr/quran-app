@@ -3,9 +3,9 @@ import { Reciter } from "@/types/reciters.type";
 import { FC } from "react";
 
 //@ts-ignore
-export type RecitersPageProps = {
+interface RecitersPageProps {
   reciters: Reciter[];
-};
+}
 
 const RecitersPage: FC<RecitersPageProps> = ({ reciters }) => {
   return (

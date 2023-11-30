@@ -2,8 +2,9 @@ import ReciterCard from "@/components/ReciterCard";
 import { Reciter } from "@/types/reciters.type";
 import { FC } from "react";
 
+//@ts-ignore
 type RecitersPageProps = {
-  reciters: Reciter[] | undefined;
+  reciters: Reciter[];
 };
 
 const RecitersPage: FC<RecitersPageProps> = ({ reciters }) => {

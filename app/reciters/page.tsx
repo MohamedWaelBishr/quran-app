@@ -3,7 +3,7 @@ import { Reciter } from "@/types/reciters.type";
 import { FC } from "react";
 
 //@ts-ignore
-type RecitersPageProps = {
+export type RecitersPageProps = {
   reciters: Reciter[];
 };
 

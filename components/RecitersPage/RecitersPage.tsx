@@ -7,7 +7,7 @@ interface RecitersPageProps {
   reciters: Reciter[] | undefined;
 }
 
-const RecitersPage: FC<RecitersPageProps> = ({ reciters }) => {
+export default function RecitersPage({ reciters }: any) {
   return (
     <div className="grid  gap-5 md:grid-cols-2 sm:grid-cols-1 lg:grid-cols-3 xl:grid-cols-5">
       {!reciters && <>asdasd</>}
@@ -16,6 +16,4 @@ const RecitersPage: FC<RecitersPageProps> = ({ reciters }) => {
       })}
     </div>
   );
-};
-
-export default RecitersPage;
+}
